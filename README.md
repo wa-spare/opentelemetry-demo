@@ -8,16 +8,18 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?color=red)](https://github.com/open-telemetry/opentelemetry-demo/blob/main/LICENSE)
 
 ## *** Dynatrace - this fork contains modifications to OpenTel Demo App for integration with Dynatrace Tenants. *** 
+Theme stemming from Dynatrace Blog: https://www.dynatrace.com/news/blog/opentelemetry-demo-application-with-dynatrace/
 ### Modifications made for Dynatrace
-- new file under root folder docker-compose.override.yml
-- fix applied to root folder file docker-compose.yml
-- modified file src/otelcollector/otelcol-config-extras.yml
-- new file under root folder start_otel_demo_app.sh
+- created new file <b> docker-compose.override.yml </b> located in root folder
+- applied fix to file <b> docker-compose.yml </b> located in root folder
+- modified file <b> otelcol-config-extras.yml </b> in /src/otelcollector/ folder
+- new file <b> start_otel_demo_app.sh </b> located in root folder
 
 ### To start OpenTelemetry Demo App  
-- modify file start_otel_demo_app.sh, updating variables for {DT_TENANT} and {DT_API_TOKEN}
-- from command line run: . start_otel_demo_app.sh
-#### End of Dynatrace Modifications
+- modify file located in the root folder <b> start_otel_demo_app.sh </b>, updating variables for {DT_TENANT} and {DT_API_TOKEN}
+- from command line run: <b> chmod +x start_otel_demo_app.sh </b>
+- from command line run: <b> . start_otel_demo_app.sh </b>
+#### *** End of Dynatrace Modifications ***
 
 ## Welcome to the OpenTelemetry Astronomy Shop Demo
 
