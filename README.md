@@ -16,7 +16,7 @@ Theme inspired from Dynatrace Blog: https://www.dynatrace.com/news/blog/opentele
 - new file <b> start_otel_demo_app.sh </b> located in root folder
 
 ### To start OpenTelemetry Demo App  
-- modify file located in the root folder <b> start_otel_demo_app.sh </b>, updating variables for {DT_TENANT} and {DT_API_TOKEN}
+- modify file located in the root folder <b> start_otel_demo_app.sh </b>, updating variables for {your DT Tenant Id} and {your DT API Token}
 - from command line run: <b> chmod +x start_otel_demo_app.sh </b>
 - from command line run: <b> . start_otel_demo_app.sh </b>
 #### *** End of Dynatrace Modifications ***
