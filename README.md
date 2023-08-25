@@ -7,6 +7,18 @@
 [![Downloads](https://img.shields.io/docker/pulls/otel/demo)](https://hub.docker.com/r/otel/demo)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?color=red)](https://github.com/open-telemetry/opentelemetry-demo/blob/main/LICENSE)
 
+## *** Dynatrace - this fork contain modifications made to work with Dynatrace Tenants. *** 
+### Modifications made for Dynatrace
+- new file under root folder docker-compose.override.yml
+- fix applied to root folder file docker-compose.yml
+- modified file src/otelcollector/otelcol-config-extras.yml
+- new file under root folder start_otel_demo_app.sh
+
+### To start OpenTelemetry Demo App  
+- modify file start_otel_demo_app.sh, updating variables for {DT_TENANT} and {DT_API_TOKEN}
+- from command line run: . start_otel_demo_app.sh
+#### End of Dynatrace Modifications
+
 ## Welcome to the OpenTelemetry Astronomy Shop Demo
 
 This repository contains the OpenTelemetry Astronomy Shop, a microservice-based
