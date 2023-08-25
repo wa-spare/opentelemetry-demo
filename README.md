@@ -7,7 +7,7 @@
 [![Downloads](https://img.shields.io/docker/pulls/otel/demo)](https://hub.docker.com/r/otel/demo)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?color=red)](https://github.com/open-telemetry/opentelemetry-demo/blob/main/LICENSE)
 
-## *** Dynatrace - this fork contain modifications to OpenTel Demo App for integration with Dynatrace Tenants. *** 
+## *** Dynatrace - this fork contains modifications to OpenTel Demo App for integration with Dynatrace Tenants. *** 
 ### Modifications made for Dynatrace
 - new file under root folder docker-compose.override.yml
 - fix applied to root folder file docker-compose.yml
